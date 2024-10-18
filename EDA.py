@@ -3,9 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 df=None                    
 data=None
-
-# Sidebar layout
-st.sidebar.title("EDA Explorer")
+st.title("Auto Pandas")
+st.subheader("NOTE : TO AVOID ERRORS PLEASE SELECT ONE CHECK BOX, ONE TIME ONE OPERATAION ALL LIES IN SELECTING?UNCHECKING THE CHECKBOXES")
 uploaded_file = st.sidebar.file_uploader("Upload CSV file", type=['csv'])
 st.sidebar.markdown("### Check characteristics")
 check_attributes = st.sidebar.checkbox("Check attributes")
